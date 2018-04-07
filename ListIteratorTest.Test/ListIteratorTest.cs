@@ -13,7 +13,6 @@ namespace ListIteratorTest.Test
         private ListIterator listIterator;
         private string[] arguments;
 
-
         [SetUp]
         public void TestInit()
         {
@@ -28,8 +27,6 @@ namespace ListIteratorTest.Test
             Assert.Throws<ArgumentNullException>(() => this.listIterator = new ListIterator(null));
         }
 
-
-
         [Test]
         public void MoveReturnsTrueWhenSuccessful()
         {
@@ -37,7 +34,6 @@ namespace ListIteratorTest.Test
             Assert.AreEqual(true, this.listIterator.Move());
             Assert.AreEqual(true, this.listIterator.Move());
         }
-
 
         [Test]
         public void TestMoveMethodIfReturnsFalse()
