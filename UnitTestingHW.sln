@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hack", "Hack\Hack.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTest.Test", "HackTest.Test\HackTest.Test.csproj", "{97AAD080-7BB3-4710-9921-38436D6FB57A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyrePressureMonitoringSystem", "TyrePressureMonitoringSystem\TyrePressureMonitoringSystem.csproj", "{02F7755C-7E37-4AFC-A71C-4B22AF6228EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyrePressureMonitoringSystemTest.Test", "TyrePressureMonitoringSystemTest.Test\TyrePressureMonitoringSystemTest.Test.csproj", "{4A28E309-25E5-4478-98B6-F5B786EEF1B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{97AAD080-7BB3-4710-9921-38436D6FB57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AAD080-7BB3-4710-9921-38436D6FB57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AAD080-7BB3-4710-9921-38436D6FB57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F7755C-7E37-4AFC-A71C-4B22AF6228EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F7755C-7E37-4AFC-A71C-4B22AF6228EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F7755C-7E37-4AFC-A71C-4B22AF6228EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F7755C-7E37-4AFC-A71C-4B22AF6228EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A28E309-25E5-4478-98B6-F5B786EEF1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A28E309-25E5-4478-98B6-F5B786EEF1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A28E309-25E5-4478-98B6-F5B786EEF1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A28E309-25E5-4478-98B6-F5B786EEF1B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
